@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/divination")
+@CrossOrigin(origins = "http://localhost:5173")
 public class DivinationController {
 
     private final DivinationService service;
